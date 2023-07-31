@@ -1,0 +1,31 @@
+Coding using CodeLab feature in the course:
+
+-> Basic code : 
+        fun main()
+        {
+            println("First Kotlin code")
+        }
+
+-> Declaring a value : ( val val_name = value )
+
+-> Declaring a variable : ( var var_name = value )
+
+-> Formatting a var/val in string : ( ${var/val_name} )
+        ex : val age = 19
+             print("My age is ${age}. ")
+
+<hr>
+
+-> Function with parameters : 
+        fun printBorder(border: String) 
+        {
+            repeat(23) 
+            {
+                print(border)
+            }
+            println()
+        }
+
+<hr>
+
+
