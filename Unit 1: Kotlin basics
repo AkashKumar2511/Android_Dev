@@ -1,5 +1,7 @@
 Coding using CodeLab feature in the course:
 
+
+
 -> Basic code : 
         fun main()
         {
@@ -14,8 +16,6 @@ Coding using CodeLab feature in the course:
         ex : val age = 19
              print("My age is ${age}. ")
 
-<hr>
-
 -> Function with parameters : 
         fun printBorder(border: String) 
         {
@@ -26,6 +26,24 @@ Coding using CodeLab feature in the course:
             println()
         }
 
-<hr>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+-> Basic Android studio intro
+        - New project : Empty activity : (Name, Minimum SDK, ..) : Finish to create a project folder
+        - Adding AVD(Android Virtual Device)(Emulator)
+
+***  The Android Emulator is an independent application used to set up a virtual device
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-> Basics in UI : 
+        - The user interface (UI) of an app is what you see on the screen: text, images, buttons, and many other types of elements.
+        - Each of these elements is what's called a View
+        - View that is for displaying text and is called a "TextView".
+        - ViewGroup
+        - <img src="https://developer.android.com/static/codelabs/basic-android-kotlin-training-birthday-card-app/img/b02cb13e267730fc_960.png?authuser=2">
