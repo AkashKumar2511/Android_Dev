@@ -1,5 +1,6 @@
 Coding using CodeLab feature in the course:
 
+Projects : Happy Birthday app template, Dice roller app, Lemonade app
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> Basic code : 
@@ -31,7 +32,7 @@ Coding using CodeLab feature in the course:
 
 
 -> Basic Android studio intro
-        - New project : Empty activity : (Name, Minimum SDK, ..) : Finish to create a project folder
+        - New project : "Empty View activity" : (Name, Minimum SDK, ..) : Finish to create a project folder
         - Adding AVD(Android Virtual Device)(Emulator)
 
 ***  The Android Emulator is an independent application used to set up a virtual device
@@ -48,3 +49,38 @@ Coding using CodeLab feature in the course:
         - ViewGroup
         - <img src="https://developer.android.com/static/codelabs/basic-android-kotlin-training-birthday-card-app/img/b02cb13e267730fc_960.png?authuser=2">
         - Layout : activity_main.xml
+
+-> Layout designing :
+        - TEXT VIEW :
+        - The layout editor is accessed through main_activity.xml file (res > layout > activity_main.xml)
+        - "Component Tree" shows all the components in the design layout
+        - "Attributes" are shown on the right panel
+        - Layout : Constraint Widget helps in adjust the area position in the layout
+        
+        - IMAGE VIEW :
+        - Using Constraint Widget
+        - adjusting attributes like "scaleType"
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-> Classes and Objects in Kotlin : 
+        - CLASS DECLARATION : class class_name(parameters) { body }
+        - OBJECT DEC : class_name(arguments)
+        - "Activity" is like a template in action 
+        - "setOnClickListener()" adds functionality to buttons and other elements
+
+
+** if - else if - else
+** "when" statements for switch cases:
+        when(age){
+                17 -> println("Underage bro")
+                18 -> println("Yay, Perfect")
+                19 -> println("Pretty enough man")
+        }
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
